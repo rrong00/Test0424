@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Test0320</string>
+    <string name="strname">Name</string>
+    <string name="strheight">Height</string>
+    <string name="strweight">Weight</string>
+    <string name="strsubmit">Submit</string>
+    <string name="strnextpage">NextPage</string>
+    <string name="strshowbmi">Your BMI value</string>
+    <string name="strtoolow">too low</string>
+    <string name="strtoohigh">too hight</string>
+    <string name="strstd">good</string>
+</resources>
