@@ -94,7 +94,7 @@
         android:text="@string/strsubmit"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ed_weight" />
 
@@ -104,8 +104,10 @@
         android:layout_height="160dp"
         app:layout_constraintBottom_toTopOf="@+id/tv_bmi1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.877"
         app:srcCompat="@drawable/a1" />
 
     <Button
@@ -117,6 +119,7 @@
         android:onClick="nextPage"
         android:text="@string/strnextpage"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button3"
         app:layout_constraintTop_toBottomOf="@+id/ed_weight" />
 
